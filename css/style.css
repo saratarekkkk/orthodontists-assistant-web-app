@@ -42,7 +42,7 @@ h3, h4, h5, h6 {
 input, button, select, textarea { 
     border-radius: 0px !important;
 }
-.timetable{background: #2ab975;padding: 5px 23px;}
+.timetable{background: #02bcf5;padding: 5px 23px;}
 .timetable hr{
 	color:#fff;
 	padding-top: 29px;
@@ -208,7 +208,7 @@ header .navbar-collapse  ul.navbar-nav {
 }
 header .navbar {min-height: 70px;padding: 18px 0;background: #ffffff;}
 .home-page header .navbar-default{
-    background: #fff;
+    background: #363636;
     /* position: absolute; */
     width: 100%;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.23);

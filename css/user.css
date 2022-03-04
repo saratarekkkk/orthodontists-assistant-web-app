@@ -157,13 +157,13 @@ body {
       border-color: #bebebe;
   }
   .btn-success {
-      background-color: #80d752;
-      border-color: #61be26;
-      text-shadow: 1px 1px 0 #5fdb34;
+      background-color: #02bcf5;
+      border-color: #02bcf5;
+      text-shadow: 1px 1px 0 #02bcf5;
   }
   .btn-success:hover, .btn-success:focus {
-      background-color: #75cd53;
-      border-color: #53aa27;
+      background-color: #02bcf5;
+      border-color: #02bcf5;
   }
   .btn-info {
       background-color: #39b3d7;

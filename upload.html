@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>STANLEY - Free Bootstrap Theme </title>
 
@@ -18,6 +19,7 @@
     <link href="assets/css/main.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"></script>
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
 
@@ -54,31 +56,18 @@
 	
 	
 	<!-- +++++ Contact Section +++++ -->
+	<div class="col-lg-6 col-lg-offset-3 centered">
+		<h3 style="margin-top: 100px;">UPLOAD REPORT</h3>
+		<hr>
 	
-	<div class="container pt">
-		<div class="row mt">
-			<div class="col-lg-6 col-lg-offset-3 centered">
-				<h3>UPLOAD IMAGE</h3>
-				<hr>
-				
-			</div>
+	</div>
+	<div class="wrapper">
+		<div style="margin-top:200px;margin-left: 650px;" class="file-upload">
+			
+		  <input type="file" />
+		  <i  class="fa fa-arrow-up" aria-hidden="true"></i>
 		</div>
-		<div class="row mt">	
-			<div class="col-lg-8 col-lg-offset-2">
-				<form role="form">
-				  <div class="form-group">
-				    <div style="width: 100px;"> 
-						<div  class="pl-sm-4 pl-2 centered" id="img-section"> <b></b>
-							<p>Accepted file type .png. Less than 1MB</p> <button class="btn button border centered"><b>Choose</b></button>
-						</div>
-					</div>
-				    <br>
-				
-				</form>    			
-			</div>
-		</div><!-- /row -->
-	</div><!-- /container -->
-	
+	  </div>
 	
 	<!-- +++++ Footer Section +++++ -->
 	
@@ -93,11 +82,6 @@
 						Egypt, Cairo.
 					</p>
 				</div><!-- /col-lg-4 -->
-				
-			
-				
-				
-				
 			
 			</div>
 		
@@ -108,6 +92,54 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    
   </body>
 </html>
+<style>
+
+html {
+  height: 100%;
+}
+
+body {
+ 
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+ 
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .file-upload {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #FFFFFF;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, #2590EB 50%, #FFFFFF 50%);
+  background-size: 50% 200%;
+  transition: all 1s;
+  color: #FFFFFF;
+  font-size: 100px;
+}
+.wrapper .file-upload input[type=file] {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 180;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.wrapper .file-upload:hover {
+  background-position: 0 -100%;
+  color: #2590EB;
+}
+</style>
